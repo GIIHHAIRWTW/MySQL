@@ -2,8 +2,8 @@ drop table if exists account;
 
 -- 创建账户表
     create table account(
-        id int primary key auto_increment;
-        name varchar(10);
+        id int primary key auto_increment,
+        name varchar(10),
         money double(10,2)
     );
 
